@@ -1,0 +1,14 @@
+{
+  "name": "swapi",
+  "version": "0.0.1",
+  "description": "Swagger API Editor",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "swagger-editor-dist": "^3.0.13"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "swapi",
+  "version": "0.0.1",
+  "description": "Swagger API Editor",
+  "main": "index.js",
+  "scripts": {
+    "build": "scripty",
+    "start": "electron app/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "appId": "com.ofallonfamily.swapi",
+    "mac": {
+      "category": "public.app-category.developer-tools"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pofallon/swapi.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pofallon/swapi/issues"
+  },
+  "homepage": "https://github.com/pofallon/swapi#readme",
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-builder": "^19.12.0"
+  }
+}
